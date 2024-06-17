@@ -1,0 +1,56 @@
+.counter {
+  text-align: center;
+  margin: 20px;
+  background-color: #003159;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.counter h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.followers {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.follower-item {
+  flex: 1 1 200px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.follower-item .icon {
+  width: 60px; /* Adjust icon size as needed */
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.social-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.social-info h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.social-info p {
+  font-size: 24px;
+  font-weight: bold;
+}
